@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Noah - Web Developer Portfolio">
+    <title>Rajeshkanna. - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Using Google Fonts Outfit as it resembles the clean sans-serif in the image -->
+    <script src="https://unpkg.com/lucide@latest"></script> <!-- For icons -->
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo">Rajesh kanna</div>
+        <div class="mobile-menu-toggle">
+            <i data-lucide="menu"></i>
+        </div>
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#connect">Contact</a>
+        </nav>
+        <a href="Rajesh Kanna P. Resume.pdf" class="btn-download">
+            <i data-lucide="download"></i> Download Resume
+        </a>
+    </header>
+
+    <div class="app-container">
+        <!-- Global Background Parallax -->
+        <div class="bg-parallax-layer stars-1" data-speed="0.05"></div>
+        <div class="bg-parallax-layer stars-2" data-speed="0.1"></div>
+        <div class="bg-parallax-layer stars-3" data-speed="0.2"></div>
+
+        <!-- Hero Section -->
+        <main class="hero-section" id="home">
+            <div class="hero-content" data-speed="-1.5" data-direction="horizontal">
+                <p class="greeting">Hey, I am <span class="highlight">Rajesh kanna</span></p>
+                <h1 class="typing-text"></h1>
+                <p class="subtitle">I am a passionate MERN Stack Developer with hands-on experience in building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. I focus on developing scalable, secure, and user-friendly applications with clean code and efficient backend architecture. I enjoy solving real-world problems and continuously improving my skills by working on practical projects.</p>
+
+                <div class="cta-group">
+                    <a href="#connect" class="btn-primary">Hire me</a>
+                    <a href="mailto:rajeshkanna904834@gmail.com" class="btn-icon"><i data-lucide="mail"></i></a>
+                </div>
+
+
+            </div>
+
+            <div class="hero-visual">
+                <div class="circle-graphic"></div>
+                <img src="final.png" alt="3D Web Developer Character"
+                    class="main-character" data-speed="-1.5">
+
+                <!-- Floating Icons (Simulated with text/images for now, ideally 3D icons) -->
+                <div class="floating-icon icon-js">JS</div>
+                <div class="floating-icon icon-html">5</div> <!-- simulating HTML5/CSS shields -->
+                <div class="floating-icon icon-react">⚛</div>
+            </div>
+
+            <!-- Background Abstract Elements - Parallax -->
+            <div class="abstract-shape shape-1" data-speed="-0.8"></div>
+            <div class="abstract-shape shape-2" data-speed="0.8"></div>
+        </main> <!-- Note: Changing this to section in next edit if needed, or just appending -->
+
+        <!-- Skills Section -->
+        <section class="skills-section" id="skills">
+            <!-- Background Bubbles -->
+            <div class="skills-bg-bubbles">
+                <div class="bubble b1"></div>
+                <div class="bubble b2"></div>
+                <div class="bubble b3"></div>
+                <div class="bubble b4"></div>
+                <div class="bubble b5"></div>
+                <div class="bubble b6"></div>
+                <div class="bubble b7"></div>
+                <div class="bubble b8"></div>
+                <div class="bubble b9"></div>
+                <div class="bubble b10"></div>
+            </div>
+            <div class="abstract-shape shape-3" data-speed="0.05"></div>
+            <div class="section-header reveal-scroll">
+                <p class="section-subtitle">What I Do</p>
+                <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+            </div>
+
+            <div class="skills-grid">
+                <!-- HTML -->
+                <div class="skill-card snake-reveal">
+                    <div class="icon-box">
+                        <i data-lucide="file-code"></i>
+                    </div>
+                    <h3>HTML</h3>
+                    <p>Semantic structure and modern HTML5 features.</p>
+                </div>
+
+                <!-- CSS -->
+                <div class="skill-card snake-reveal">
+                    <div class="icon-box">
+                        <i data-lucide="palette"></i>
+                    </div>
+                    <h3>CSS</h3>
+                    <p>Responsive layouts, Flexbox, Grid, and Animations.</p>
+                </div>
+
+                <!-- JavaScript -->
+                <div class="skill-card snake-reveal">
+                    <div class="icon-box">
+                        <i data-lucide="braces"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>ES6+, DOM manipulation, and asynchronous logic.</p>
+                </div>
+
+                <!-- React JS -->
+                <div class="skill-card snake-reveal">
+                    <div class="icon-box">
+                        <i data-lucide="atom"></i>
+                    </div>
+                    <h3>React JS</h3>
+                    <p>Component-based architecture and state management.</p>
+                </div>
+
+                <!-- Node JS -->
+                <div class="skill-card snake-reveal">
+                    <div class="icon-box">
+                        <i data-lucide="server"></i>
+                    </div>
+                    <h3>Node JS</h3>
+                    <p>Scalable backend services and RESTful APIs.</p>
+                </div>
+
+                <!-- MongoDB -->
+                <div class="skill-card snake-reveal">
+                    <div class="icon-box">
+                        <i data-lucide="database"></i>
+                    </div>
+                    <h3>MongoDB</h3>
+                    <p>NoSQL database design and aggregation pipelines.</p>
+                </div>
+                <div class="skill-card snake-reveal">
+    <div class="icon-box">
+        <i data-lucide="layers"></i>
+    </div>
+    <h3>Express JS</h3>
+    <p>Fast, minimalist web framework for Node.js APIs.</p>
+</div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <!-- Scenery Background -->
+            <div class="project-scenery scenery-anim">
+                <div class="sky-sunset"></div>
+                <!-- Stars -->
+                <div class="scenery-star" style="top: 10%; left: 20%; width: 3px; height: 3px; animation-delay: 0.5s;">
+                </div>
+                <div class="scenery-star" style="top: 25%; left: 80%; width: 4px; height: 4px; animation-delay: 1.2s;">
+                </div>
+                <div class="scenery-star" style="top: 15%; left: 40%; width: 2px; height: 2px; animation-delay: 2.5s;">
+                </div>
+                <div class="scenery-star" style="top: 50%; left: 10%; width: 3px; height: 3px; animation-delay: 0.8s;">
+                </div>
+                <div class="scenery-star" style="top: 5%; left: 90%; width: 2px; height: 2px; animation-delay: 3.0s;">
+                </div>
+                <div class="scenery-star" style="top: 35%; left: 30%; width: 4px; height: 4px; animation-delay: 1.5s;">
+                </div>
+                <div class="scenery-star" style="top: 55%; left: 70%; width: 3px; height: 3px; animation-delay: 0.2s;">
+                </div>
+                <div class="scenery-star" style="top: 20%; left: 55%; width: 2px; height: 2px; animation-delay: 4.0s;">
+                </div>
+                <div class="scenery-star" style="top: 45%; left: 85%; width: 3px; height: 3px; animation-delay: 2.1s;">
+                </div>
+                <div class="scenery-star" style="top: 8%; left: 15%; width: 4px; height: 4px; animation-delay: 1.0s;">
+                </div>
+                <div class="moon-orb"></div>
+                <div class="mountain mtn-back"></div>
+                <!-- Waterfall removed -->
+
+                <div class="mountain mtn-left"></div>
+                <div class="mountain mtn-right"></div>
+            </div>
+            <div class="abstract-shape shape-4" data-speed="-0.1"></div>
+            <div class="section-header reveal-scroll" data-speed="0.05">
+                <p class="section-subtitle">My Work</p>
+                <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+            </div>
+
+            <div class="projects-grid reveal-scroll">
+                <!-- Project 1 -->
+                <a href="project-details.html" class="project-card snake-reveal" data-speed="0.03">
+                    <div class="project-image">
+                        <img src="https://t4.ftcdn.net/jpg/05/05/51/25/240_F_505512599_D6ulJI9hV6aGTP04FPC2XDk5QHGOQtpW.jpg" alt="Project 1">
+                        <div class="overlay">
+                            <i data-lucide="arrow-up-right"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Travel Booking Platform</h3>
+                        <p>A seamless travel booking platform with real-time reservations and secure payments.</p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>Express</span>
+                            <span>Node</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 2 -->
+                <a href="project-details2.html" class="project-card snake-reveal" data-speed="0.06">
+                    <div class="project-image">
+                        <img src="https://i.pinimg.com/1200x/b9/ec/98/b9ec98be9295ec71c409334e5102adea.jpg" alt="Project 2">
+                        <div class="overlay">
+                            <i data-lucide="arrow-up-right"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Online Qiuz Application</h3>
+                        <p>Interactive online quiz platform with real-time scoring and instant feedback.</p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>Node</span>
+                            <span>Express</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 3 -->
+                <a href="project-details3.html" class="project-card snake-reveal" data-speed="0.09">
+                    <div class="project-image">
+                        <img src="https://plus.unsplash.com/premium_photo-1681487870238-4a2dfddc6bcb?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dG8lMjBkbyUyMGxpc3R8ZW58MHx8MHx8fDA%3D" alt="Project 3">
+                        <div class="overlay">
+                            <i data-lucide="arrow-up-right"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Modern Todo Web App</h3>
+                        <p>A simple task management app designed to boost productivity and focus.</p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>Express</span>
+                            <span>Node</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="connect">
+            <!-- Background Bubbles -->
+            <div class="contact-bg-bubbles">
+                <div class="bubble b1"></div>
+                <div class="bubble b2"></div>
+                <div class="bubble b3"></div>
+                <div class="bubble b4"></div>
+                <div class="bubble b5"></div>
+                <div class="bubble b6"></div>
+                <div class="bubble b7"></div>
+                <div class="bubble b8"></div>
+                <div class="bubble b9"></div>
+                <div class="bubble b10"></div>
+            </div>
+            <div class="glass-form-container reveal-scroll" data-speed="0.05">
+                <div class="form-header">
+                    <h2>Let's Work Together</h2>
+                    <p>Have a project in mind? Fill out the form below or send me an email.</p>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://wa.me/919048340136" target="_blank" title="WhatsApp"><i
+                            data-lucide="message-circle"></i></a>
+                    <a href="mailto:rajeshkanna904834@gmail.com" title="Email"><i data-lucide="mail"></i></a>
+                    <a href="tel:+919048340136" title="Phone"><i data-lucide="phone"></i></a>
+                    <a href="https://github.com/Rajesh-kanna24"><i data-lucide="github"></i></a>
+                    <a href="https://www.linkedin.com/in/rajesh-kanna-678ba02a6" title="linkedin"><i data-lucide="linkedin"></i></a>
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
